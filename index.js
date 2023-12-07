@@ -68,25 +68,25 @@ async function searchingArray(searchString){
 }
 
 
-const lightMode = document.getElementById("light");
+// const lightMode = document.getElementById("light");
 
-lightMode.addEventListener("click", () => {
-  document.querySelector(".body").classList.toggle("light-mode")
-})
+// lightMode.addEventListener("click", () => {
+//   document.querySelector(".body").classList.toggle("light-mode")
+// })
 
-const count = document.querySelector(".count");
+// const count = document.querySelector(".count");
 
-let bellCount = 0;
+// let bellCount = 0;
 
-const notificationButton = document.getElementById("notification-button");
-notificationButton.addEventListener("click", () => {
-  bellCount++;
-  if(bellCount>0){
-    count.textContent = bellCount;
-    count.style.display = "block";
-    console.log("executed");
-  }
-})
+// const notificationButton = document.getElementById("notification-button");
+// notificationButton.addEventListener("click", () => {
+//   bellCount++;
+//   if(bellCount>0){
+//     count.textContent = bellCount;
+//     count.style.display = "block";
+//     console.log("executed");
+//   }
+// })
 
 
 window.addEventListener("load", simulatePageLoad);
