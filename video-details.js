@@ -67,7 +67,7 @@ window.addEventListener("load", () => {
 });
 getSubscription();
 async function getSubscription() {
-  const endPoint = `https://youtube.googleapis.com/youtube/v3/subscriptions?part=snippet&channelId=UC6wLgjFDStkG6LpxidBl2AQ&key=${API_key}&maxResults=20`;
+  const endPoint = `https://youtube.googleapis.com/youtube/v3/subscriptions?part=snippet&channelId=UC6wLgjFDStkG6LpxidBl2AQ&key=AIzaSyDSKA7c1ZhSsjnXxBncruJa6RDaziDsBN8&maxResults=20`;
   try {
     const response = await fetch(endPoint);
     const result = await response.json();
